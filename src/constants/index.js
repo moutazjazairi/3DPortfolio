@@ -39,6 +39,9 @@ import {
   import mad from "../assets/mad.jpg";
   import br from "../assets/br.jpeg";
   import alsham from "../assets/alsham.jpg";
+  import moutaz from "../assets/moutaz-trade.png";
+  import care from "../assets/care.png"
+  import arrow from "../assets/arrow.png"
 
   export const navLinks = [
     {
@@ -230,6 +233,48 @@ import {
       source_code_link: "https://horizon-blush-seven.vercel.app/sign-in",
     },
     {
+      name: "Moutaz-Trade",
+      description:
+        "Moutaz-Trade is a modern web platform built with Next.js and MongoDB that delivers the latest stock market news and insights in real time. It features a clean, responsive interface for tracking stock performance and financial updates efficiently. The project highlights my ability to build data-driven, scalable web applications using technologies like Next.js, MongoDB, TypeScript, and Tailwind CSS with a focus on performance and user experience.",
+      tags: [
+        {
+          name: "MongooDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Typescript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Nextjs",
+          color: "green-text-gradient",
+        },
+      ],
+      image: moutaz,
+      source_code_link: "https://moutaz-trade.vercel.app/sign-in",
+    },
+    {
+      name: "CarePulse",
+      description:
+        "CarePulse is a healthcare appointment management platform built with Next.js and Appwrite. It enables patients to book, modify, or cancel appointments with doctors seamlessly, while providing an admin dashboard for hospitals to manage schedules, approve requests, and oversee patient interactions. The project demonstrates my ability to build secure, full-stack web applications with role-based access, real-time updates, and a smooth user experience.",
+      tags: [
+        {
+          name: "Appwrite",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Typescript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Nextjs",
+          color: "green-text-gradient",
+        },
+      ],
+      image: care,
+      source_code_link: "https://healthcarepulse-plum.vercel.app/",
+    },
+    {
       name: "DohaGram",
       description:
         "Dohagram is a fully functional Instagram clone built with Next.js for the frontend and Appwrite for the backend. The project replicates key Instagram features, including user authentication, posting images, liking posts, and commenting. It showcases my ability to create full-stack applications using modern technologies, integrating front-end and back-end services seamlessly..",
@@ -312,6 +357,23 @@ import {
       ],
       image: carhup,
       source_code_link: "https://car-hup-zeta.vercel.app/",
+    },
+    {
+      name: "ArrowAvia",
+      description:
+        "ArrowAvia is a corporate website built with WordPress and Elementor, showcasing the company’s expertise in aviation support services, including charter, cargo, emergency, and diplomatic missions. The site emphasizes precision, reliability, and care, featuring a clean design, responsive layout, and user-friendly content management system for seamless updates and scalability.",
+      tags: [
+        {
+          name: "wordpress",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Elemantor",
+          color: "green-text-gradient",
+        },
+      ],
+      image: arrow,
+      source_code_link: "https://arrowavia.aero/",
     },
     {
       name: "Liviano Foods LLC",
